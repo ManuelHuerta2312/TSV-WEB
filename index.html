@@ -1,20 +1,42 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TSV - Grupo Octano</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TSV - Bienvenido</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <header>
-        <img src="img/logo.png" alt="Logo Octano" width="100">
-        <img src="img/logo tsv.png" alt="Logo TSV" width="100">
-    </header>
-    <main>
-        <h1>¡Bienvenido a TSV!</h1>
-        <p>Este sitio web replica la app de referidos y recompensas.</p>
-        <img src="img/banner.png" alt="Banner" width="600">
-    </main>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="img/logo.png" alt="TSV Logo" height="40" />
+        <span>TSV</span>
+      </div>
+      <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="perfil.html">Mi Perfil</a>
+        <a href="referidos.html">Referidos</a>
+        <a href="recompensas.html">Recompensas</a>
+        <a href="historial.html">Historial</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="banner">
+      <h1>¡Bienvenido a TSV!</h1>
+      <p>Este sitio replica la app de referidos y recompensas.</p>
+    </section>
+    <section class="summary">
+      <div class="card earned">
+        <h2>Puntos Ganados</h2>
+        <p class="points">+2,100</p>
+      </div>
+      <div class="card spent">
+        <h2>Puntos Canjeados</h2>
+        <p class="points">-850</p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
