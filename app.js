@@ -1,1 +1,0 @@
-// Lógica futura para el sitio TSV
